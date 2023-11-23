@@ -5,7 +5,7 @@ import colors from 'tailwindcss/colors';
 const { lightBlue, warmGray, trueGray, coolGray, blueGray, ...eligibleColors } = colors;
 
 export default {
-  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  content: ['./index.html', './documponents/**/*.{js,ts,jsx,tsx}', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     colors: {
       ...eligibleColors,
