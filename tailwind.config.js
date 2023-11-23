@@ -6,6 +6,7 @@ const { lightBlue, warmGray, trueGray, coolGray, blueGray, ...eligibleColors } =
 
 export default {
   content: ['./index.html', './documponents/**/*.{js,ts,jsx,tsx}', './src/**/*.{js,ts,jsx,tsx}'],
+  darkMode: 'class',
   theme: {
     colors: {
       ...eligibleColors,
