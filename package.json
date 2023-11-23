@@ -12,6 +12,7 @@
     "x-import-documponents": "cd ../documponents && npm run x-transpile && cd ../pusu-use-cases && rm -rf ./documponents && cp -R ../documponents/out ./documponents"
   },
   "dependencies": {
+    "pusu": "^1.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
